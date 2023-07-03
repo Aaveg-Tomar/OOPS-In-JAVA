@@ -9,6 +9,9 @@ public class Main {
         Shapes sh = new Shapes();
         sh.area();
 
+        Shapes.abc();
+        cr.area();
+
 
 
     }
