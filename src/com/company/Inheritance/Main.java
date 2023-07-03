@@ -19,6 +19,14 @@ public class Main {
 
         System.out.println(box5.l + " " + box5.w + " " + box5.weight);
 
+        BoxPrice boxPrice1 = new BoxPrice();
+        System.out.println("BoxPrice " + boxPrice1.l + " " + boxPrice1.weight + " " + boxPrice1.price);
+
+
+        BoxPrice boxPrice = new BoxPrice(20 , 30 , 40 , 10.0 , 90);
+        System.out.println("BoxPrice " + boxPrice.l + " " + boxPrice.weight + " " + boxPrice.price);
+
+
 
 
     }

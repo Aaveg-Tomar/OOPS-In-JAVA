@@ -4,26 +4,26 @@ package com.company.Inheritance;
 
     int l;
     int w;
-    int  h;
+    int h;
 
     Box()
     {
         this.l = 1;
-        this.h = 2;
-        this.w = 3;
+        this.w = 2;
+        this.h = 3;
     }
 
     public Box(int side)
     {
         this.l = side;
-        this.h = side;
         this.w = side;
+        this.h = side;
     }
 
     public Box(int l , int w, int h)
     {
-        this.w = w;
         this.l = l;
+        this.w = w;
         this.h = h;
     }
 }
